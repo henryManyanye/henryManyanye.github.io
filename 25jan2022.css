@@ -43,73 +43,109 @@
 	src: url(quicksand.light-regular.otf);
 }
 
-html{
-	box-sizing: border-box;
-	 
+@media screen and (min-width: 500px)
+{
+			html{
+			box-sizing: border-box;
+			 
+		}
+
+		body{
+			font-family: quicksand;
+			 font-size: 15px; 
+		 	margin: 0px;
+		 	
+		} 
+
+		 
+		header {
+			 
+			height: 5vw;  
+			background: linear-gradient(to right, black, darkgray);	
+			/* font-size: 25px; */
+			font-size: 2.2vw;
+			width: 100%;
+			 
+
+		}
+
+		nav{
+			     
+			  /*  height: 100%; */
+			    width: 100%;
+			    box-sizing: border-box;
+			    padding-top: 1.5vw;;
+			    
+		}
+
+		 
+		a{
+			  
+			  box-sizing: border-box; 
+			 width:  calc(100% / 4);
+			 display: inline-block;  
+			 text-align: center;
+			 height: 100%;	  
+		}
+
+		 
+
+
+		a{
+			text-decoration: none;
+			color: white; 
+		}
+
+
+
+		.changeSize {
+			font-size: 18px;
+		}
+
+		.defaultSize {
+			font-size: 25px;
+		}
+
+		img{
+			width: 100%;
+			margin-top: 1vw;
+		}
 }
 
-body{
-	font-family: quicksand;
-	 font-size: 15px; 
- 	margin: 0px;
- 	
-} 
+@media screen and (max-width: 499px)
+{
+		html{
+		box-sizing: border-box;
+				 
+	}
 
- 
-header {
-	 
-	height: 5vw;  
-	background: linear-gradient(to right, black, darkgray);	
-	/* font-size: 25px; */
-	font-size: 2.2vw;
-	width: 100%;
-	 
+	body{
+		font-family: quicksand;
+		 font-size: 4vw; 
+	 	margin: 0px;
+	 	background: url(pic1.jpg);
+	 	background-size: auto;
+	 	background-repeat: no-repeat;  
+	 	
+	}
 
-}
-
-nav{
-	     
-	  /*  height: 100%; */
-	    width: 100%;
-	    box-sizing: border-box;
-	    padding-top: 1.5vw;;
-	    
-}
-
- 
-a{
-	  
-	  box-sizing: border-box; 
-	 width:  calc(100% / 3);
-	 display: inline-block;  
-	 text-align: center;
-	 height: 100%;
-	  
-
-}
-
- 
+	a{
+		display: block;
+		text-decoration: none;
+		  background: linear-gradient(to right, black, darkgray);	 
+		color: white;  
+		margin-bottom: 3px;
+		padding: 10px;
+	}
 
 
-a{
-	text-decoration: none;
-	color: white; 
+	img{
+		width: 100%;
+		display: none;
+	}
 }
 
 
-
-.changeSize {
-	font-size: 18px;
-}
-
-.defaultSize {
-	font-size: 25px;
-}
-
-img{
-	width: 100%;
-	margin-top: 1vw;
-}
 
 
 
