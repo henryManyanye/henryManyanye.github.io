@@ -1,0 +1,150 @@
+@font-face {
+	font-family: Comforter;
+	src: url(Comforter/Comforter-Regular.ttf);
+}
+
+@font-face {
+	font-family: Sacramento;
+	src: url(Sacramento/Sacramento-Regular.ttf);
+}
+
+ @font-face {
+	font-family: BadScript;
+	src: url(Bad_Script/BadScript-Regular.ttf);
+} 
+
+@font-face {
+	font-family: Cinzel-Regular;
+	src: url(Cinzel/static/Cinzel-Regular.ttf);
+} 
+
+@font-face {
+	font-family: CinzelDecorative-Regular;
+	src: url(Cinzel_Decorative/CinzelDecorative-Regular.ttf);
+} 
+
+@font-face {
+	font-family: Licorice-Regular;
+	src: url(Licorice/Licorice-Regular.ttf);
+} 
+
+@font-face {
+	font-family: NixieOne-Regular;
+	src: url(Nixie_One/NixieOne-Regular.ttf);
+} 
+
+@font-face {
+	font-family: roboto;
+	src: url(roboto.thin.ttf);
+} 
+
+@font-face {
+	font-family: quicksand;
+	src: url(quicksand.light-regular.otf);
+}
+
+@media screen and (min-width: 500px)
+{
+			html{
+			box-sizing: border-box;
+			 
+		}
+
+		body{
+			font-family: quicksand;
+			 font-size: 15px; 
+		 	margin: 0px;
+		 	background: url("pic1.jpg");
+		 	
+		} 
+
+		 
+		header {
+			 
+			height: 5vw;  
+			background: linear-gradient(to right, black, darkgray);	
+			/* font-size: 25px; */
+			font-size: 2.2vw;
+			width: 100%;
+			 
+
+		}
+
+		nav{
+			     
+			  /*  height: 100%; */
+			    width: 100%;
+			    box-sizing: border-box;
+			    padding-top: 1.5vw;;
+			    
+		}
+
+		 
+		nav a{
+			  
+			  box-sizing: border-box; 
+			 width:  calc(100% / 4);
+			 display: inline-block;  
+			 text-align: center;
+			 height: 100%;	  
+		}
+
+		 
+
+
+		nav a{
+			text-decoration: none;
+			color: white; 
+		}
+
+
+
+		 
+}
+
+@media screen and (max-width: 499px)
+{
+		html{
+		box-sizing: border-box;
+				 
+	}
+
+	body{
+		font-family: quicksand;
+		 font-size: 4vw; 
+	 	margin: 0px;
+	 	background: url("pic1.jpg");
+	 	background-size: auto;
+	 	background-repeat: no-repeat;  
+	 	
+	}
+
+	nav a{
+		display: block;
+		text-decoration: none;
+		  background: linear-gradient(to right, black, darkgray);	 
+		color: white;  
+		margin-bottom: 3px;
+		padding: 10px;
+	}
+
+
+	 
+}
+
+
+
+
+main{
+	margin-top: 20px;
+	padding: 10px;
+}
+
+main a{
+	text-decoration: none;
+	color: #ff6600;
+	font-weight: bold;
+	background-color: black;
+	padding: 5px;
+	display: inline-block;
+}  
