@@ -50,15 +50,12 @@
 			 
 		}
 
-		main{
-			margin-top: 40px;
-		}
-
 		body{
 			font-family: quicksand;
-			font-size: 4vw; 
+			 font-size: 4vw; 
 		 	margin: 0px;
 		 	background: url("pic1.jpg");
+		 	
 		} 
 
 		 
@@ -83,7 +80,7 @@
 		}
 
 		 
-		a{
+		nav a{
 			  
 			  box-sizing: border-box; 
 			 width:  calc(100% / 4);
@@ -95,25 +92,14 @@
 		 
 
 
-		a{
+		nav a{
 			text-decoration: none;
 			color: white; 
 		}
 
 
 
-		.changeSize {
-			font-size: 18px;
-		}
-
-		.defaultSize {
-			font-size: 25px;
-		}
-
-		img{
-			width: 100%;
-			margin-top: 1vw;
-		}
+		 
 }
 
 @media screen and (max-width: 499px)
@@ -133,7 +119,7 @@
 	 	
 	}
 
-	a{
+	nav a{
 		display: block;
 		text-decoration: none;
 		  background: linear-gradient(to right, black, darkgray);	 
@@ -143,64 +129,22 @@
 	}
 
 
-	img{
-		width: 100%;
-		display: none;
-	}
+	 
 }
 
-main h3{
-	text-decoration: none;
+
+
+
+main{
+	margin-top: 20px;
+	padding: 10px;
+}
+
+main a{
 	color: white; 
 	background-color: black;
-	padding: 5px; 
-}  
-
-h4, li{
 	padding: 5px;
-	color: white;
-	background-color: black;
-	margin-bottom: 3px; 
-	list-style: none;
+	text-decoration: none;
+	margin-bottom: 3px;
 	display: inline-block;
-}
-
-
-
-
-
-
-
-
-
-/* ---- Layout mode > CSS Multi-column Layout ----
-	column-count
-	column-gap
-	column-rule
-	column-rule-color
-	column-rule-style
-	column-rule-width
-	column-span
-	column-width
-
-*/
-
-/* ---- Layout mode > CSS Grid Layout---- 
-	grid-template-columns
-	grid-column-start
-	grid-column-end
-	grid-column
-	grid-template-rows
-	grid-row
-	justify-self
-
-*/
-
-/* ---- OTHER Layout mode TOPICS TO STUDY  ----
-	CSS Positioned Layout
-	CSS Table
-
-*/
-
-
-/* -- CSS Grid Layout and Accessibility */
+}  
