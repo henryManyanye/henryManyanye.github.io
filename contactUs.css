@@ -52,19 +52,27 @@
 
 		body{
 			font-family: quicksand;
-			 font-size: 4vw; 
-		 	margin: 0px;
+			 margin: 0px;
 		 	background: url("pic1.jpg");
 		 	
 		} 
 
+		main{
+			margin-top: 40px;
+			font-size: 1.5vw;
+			margin-left: 1.5vw;
+		}
+
+		main a{
+			width: 40%;
+		}
+
 		 
 		header {
 			 
-			height: 5vw;  
+			height: 4vw;   
 			background: linear-gradient(to right, black, darkgray);	
-			/* font-size: 25px; */
-			font-size: 2.2vw;
+			font-size: 1.5vw;
 			width: 100%;
 			 
 
@@ -111,13 +119,18 @@
 
 	body{
 		font-family: quicksand;
-		 font-size: 4vw; 
-	 	margin: 0px;
+		 
 	 	background: url("pic1.jpg");
 	 	background-size: auto;
 	 	background-repeat: no-repeat;  
 	 	
 	}
+
+	main{
+			margin-top: 40px;
+			font-size: 5vw;
+			/* margin-left: 1.5vw; */
+		}
 
 	nav a{
 		display: block;
@@ -146,5 +159,6 @@ main a{
 	padding: 5px;
 	text-decoration: none;
 	margin-bottom: 3px;
-	display: inline-block;
+	display: block;
+	
 }  

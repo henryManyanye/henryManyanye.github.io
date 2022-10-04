@@ -50,24 +50,45 @@
 			 
 		}
 
-		main{
-			margin-top: 40px;
-		}
+		
 
 		body{
-			font-family: quicksand;
-			font-size: 4vw; 
+			font-family: quicksand;			
 		 	margin: 0px;
 		 	background: url("pic1.jpg");
+
+		 	color: white;
 		} 
+
+		main{
+			margin-top: 40px;
+			font-size: 1.5vw;
+			margin-left: 3.5vw;  
+
+		}
+
+		li, div{
+			display: block;
+			width: 60%;
+
+		}
+
+		h4{
+			
+			width: 40%;
+		}
+
+		h3{
+			display: inline-block;
+		}
+
 
 		 
 		header {
 			 
-			height: 5vw;  
+			height: 4vw;  
 			background: linear-gradient(to right, black, darkgray);	
-			/* font-size: 25px; */
-			font-size: 2.2vw;
+			font-size: 1.5vw;
 			width: 100%;
 			 
 
@@ -125,13 +146,23 @@
 
 	body{
 		font-family: quicksand;
-		 font-size: 4vw; 
-	 	margin: 0px;
+		  
+	 	
 	 	background: url("pic1.jpg");
 	 	background-size: auto;
 	 	background-repeat: no-repeat;  
 	 	
 	}
+
+	main{
+			margin-top: 40px;
+			font-size: 5vw;
+
+
+			    
+		}
+
+
 
 	a{
 		display: block;
@@ -147,6 +178,14 @@
 		width: 100%;
 		display: none;
 	}
+
+	li{
+	 display: block;  
+	width: 100%;
+	 
+	}
+
+	 
 }
 
 main h3{
@@ -154,16 +193,32 @@ main h3{
 	color: white; 
 	background-color: black;
 	padding: 5px; 
+	font-weight: normal;
 }  
 
-h4, li{
+h4, li, div{
 	padding: 5px;
 	color: white;
 	background-color: black;
 	margin-bottom: 3px; 
 	list-style: none;
-	display: inline-block;
+	font-weight: normal;
+	
+	 
 }
+
+ 
+h4{
+	margin-bottom: 6px;
+}
+
+div{
+	margin-left: 10px;
+	margin-bottom: 6px; 
+}
+
+
+ 
 
 
 
